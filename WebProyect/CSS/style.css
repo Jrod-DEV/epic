@@ -1,8 +1,0 @@
-:root {
-    --max-width: 900px;
-    --navbar-height: 50px;
-    --dark-color: #222222;
-  }
-
-  /* Font */
-  @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
