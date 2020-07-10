@@ -1,0 +1,11 @@
+.footer {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: var(--navbar-height);
+    z-index: 100;
+    background-color: black;
+}
+#name {
+    height: var(--navbar-heigh);
+}

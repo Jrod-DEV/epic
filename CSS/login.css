@@ -1,0 +1,94 @@
+/*MOBILE FIRST*/
+
+*{
+    background: black;
+    
+    background-image: url('/images/portada.jpg');
+}
+
+header {
+    border: 0rem;
+    margin: 0rem;
+    padding: 30px 30px;
+    font-size: 0.8rem;
+    font-family: Play,Arial, Helvetica, sans-serif;
+    color: #CB1C01;
+}
+
+.head {
+    align-content: center;
+    text-shadow: 0px 2px red;
+}
+
+.logo > a {
+    text-shadow: blur-radius white;
+    color: #CB1C01;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 1rem;
+    line-height: var(--navbar-height);
+    font-family: Play, Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+.form {
+    background-color: black;
+    color: blanchedalmond;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100%;
+}
+
+.login form {
+    font-family: Play, Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 30px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    display: table;
+    text-align: start;
+}
+
+.more {
+    display: block;
+    height: 40px;
+    font-size: 1rem;
+}
+
+.form-login h3 {
+    font-size: 1.5rem;
+}
+
+.controls {
+    width: 100%;
+    color: #640F02;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid ;
+    font-size: 1.2rem;
+}
+
+.form p {
+    font-size: 1rem;
+    display: inline;
+    justify-content: space-between;
+}
+#go{
+    background-color: #CB1C01;
+    font-weight: bold;
+}
+
+address{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 1rem;
+}
+
+@media screen and (orientation: landscape){
+
+
+}
