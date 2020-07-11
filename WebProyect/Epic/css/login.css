@@ -2,11 +2,18 @@
 
 
 body {
+    height: 100%;
     margin: 0;
-    pad: 0;
+    padding: 0;
     font-family: sans-serif;
-    background: url(https://images.pexels.com/photos/2917442/pexels-photo-2917442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+    background: black;
     background-size: cover;
+}
+.header__img {
+    padding: 10px;
+    width: 50px;
+    margin-top: 25px;
+    margin-left: 10px;
 }
 .login-box {
     width: 280px;
@@ -66,5 +73,8 @@ body {
     .login-box{
         border: solid #848484;
         width: 80vw;
+        padding: 100px 20px;
+        border: solid #042338;
+        border-radius: 4px;
     }
   }
