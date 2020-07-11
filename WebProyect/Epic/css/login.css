@@ -64,6 +64,7 @@ body {
     font-size: 1.2rem;
     cursor: pointer;
     margin: 12px 0px;
+    border-radius: 4px;
 }
 .more a {
     text-decoration-style: solid;
@@ -81,5 +82,6 @@ body {
         padding: 90px 20px;
         border: solid #095F99;
         border-radius: 4px;
+        margin-top: 20px;
     }
   }
