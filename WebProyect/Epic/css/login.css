@@ -17,7 +17,7 @@ body {
     margin-left: 0px;
 }
 .login-box {
-    width: 280px;
+    width: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -66,6 +66,11 @@ body {
     margin: 12px 0px;
     border-radius: 4px;
 }
+
+.more {
+    padding: 5px;
+}
+
 .more a {
     text-decoration-style: solid;
     color: #095F99;
@@ -83,5 +88,8 @@ body {
         border: solid #095F99;
         border-radius: 4px;
         margin-top: 20px;
+    }
+    .more {
+        padding: 5px;
     }
   }
