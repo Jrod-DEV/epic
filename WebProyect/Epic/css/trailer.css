@@ -16,13 +16,12 @@ body{
     }
 
     .header { grid-area: 1 / 1 / 2 / 6; }
+    .frame-trailer { grid-area: 2 / 1 / 5 / 4;}
 
-    .frame-trailer { grid-area: 2 / 1 / 5 / 4; 
+    .film-details { grid-area: 2 / 4 / 5 / 6;
+        margin-left: 20px;
+        margin-right: 20px;
     }
-
-    .film-details { grid-area: 2 / 4 / 5 / 6; 
-    }
-
     .footer { grid-area: 5 / 1 / 6 / 6;} 
 
     .trailer-item {
@@ -30,6 +29,21 @@ body{
         border-radius: 20px  solid white;
         width: 50vw;
         height: 50vh;
-    }
+    } 
 
-    
+    @media only screen and (max-width:768px){
+    .parent { 
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin: 20px;
+        }
+        .trailer-item {
+            margin-left: 0px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 70vw;
+            height: 50vh;
+        }
+    }
